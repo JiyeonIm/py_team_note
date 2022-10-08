@@ -1,6 +1,6 @@
 # 현재 나이트의 위치 입력받기
 data = input()
-# ord : unicode 반환/ord('a')는 97
+# ord : unicode 반환 = ascii 코드 / ord('a')는 97
 col = int(ord(data[0])) - int(ord('a')) + 1
 row = int(data[1])
 
